@@ -1,9 +1,22 @@
 [tool.poetry]
 name = "PCMF"
-version = "0.1.0"
+version = "0.1.1"
 description = "PCMF is a Python package of Positive Collective Matrix Factorization(PCMF). PCMF is a model that combines the interpretability of NMF and the extensibility of CMF."
 authors = ["Y. Sumiya <y.sumiya.1031@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/N-YS-KK"
+repository = "https://github.com/N-YS-KK/PCMF"
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
 
 [tool.poetry.dependencies]
 python = "^3.6,<3.9"
