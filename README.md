@@ -8,7 +8,7 @@ We propose Positive Collective Matrix Factorization (PCMF). PCMF is a model that
 ## Problem setting
 When there are two relational data (matrix ![](https://latex.codecogs.com/gif.latex?X), ![](https://latex.codecogs.com/gif.latex?Y)) that share one set, and you want to predict the relational data (matrix ![](https://latex.codecogs.com/gif.latex?X), ![](https://latex.codecogs.com/gif.latex?Y)) and extract feature representations (matrix ![](https://latex.codecogs.com/gif.latex?U), ![](https://latex.codecogs.com/gif.latex?V^T), ![](https://latex.codecogs.com/gif.latex?Z^T)) at the same time.
 
-(Example)
+### Example
 - Two relational data (matrix ![](https://latex.codecogs.com/gif.latex?X), ![](https://latex.codecogs.com/gif.latex?Y))
 
 ![](https://latex.codecogs.com/gif.latex?X): Patient-disease matrix  
@@ -31,8 +31,9 @@ PCMF is a model that combines the advantages of NMF, "interpretability," and the
 
 The illustration of PCMF is as follows.
 
+![](https://raw.githubusercontent.com/N-YS-KK/PCMF/main/images/PCMF.PNG) 
 
-(Example)  
+### Example  
 This will be described using the previous example.
 
 - The patient matrix ![](https://latex.codecogs.com/gif.latex?U^T) with the softplus function applied is the patient matrix ![](https://latex.codecogs.com/gif.latex?U^{'T}).  
