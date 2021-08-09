@@ -6,7 +6,7 @@ We propose Positive Collective Matrix Factorization (PCMF). PCMF is a model that
 # Description of PCMF
 
 ## Problem setting
-When there are two relational data (matrix ![](https://latex.codecogs.com/gif.latex?X), ![](https://latex.codecogs.com/gif.latex?Y)) that share one set, and you want to predict the relational data (matrix ![](https://latex.codecogs.com/gif.latex?X), ![](https://latex.codecogs.com/gif.latex?Y)) and extract feature representations (matrix ![](https://latex.codecogs.com/gif.latex?U), ![](https://latex.codecogs.com/gif.latex?V^T), ![](https://latex.codecogs.com/gif.latex?Z^T)) at the same time.
+When there are two relational data (matrix ![](https://latex.codecogs.com/gif.latex?X), ![](https://latex.codecogs.com/gif.latex?Y)) that share one set, and you want to predict the relational data (matrix ![](https://latex.codecogs.com/gif.latex?\hat{X}), ![](https://latex.codecogs.com/gif.latex?\hat{Y})) and extract feature representations (matrix ![](https://latex.codecogs.com/gif.latex?U), ![](https://latex.codecogs.com/gif.latex?V^T), ![](https://latex.codecogs.com/gif.latex?Z^T)) at the same time.
 
 ### Example
 - Two relational data (matrix ![](https://latex.codecogs.com/gif.latex?X), ![](https://latex.codecogs.com/gif.latex?Y))
@@ -109,19 +109,19 @@ You may use our package(PCMF) under MIT License. If you use this program in your
 
 **PCMF Package**
 ```bash
-@misc{yumiya2021pcmf,
+@misc{sumiya2021pcmf,
   author = {Yuki, Sumiya and Kensho, Kondo and Kazuhide, Nakata},
   title = {PCMF},
   year = {2021},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/N-YS-KK/PCMF}}
+  howpublished = {https://github.com/N-YS-KK/PCMF}
 }
 ```
 
 **PCMF Paper**[ [link](https://www.jstage.jst.go.jp/article/pjsai/JSAI2021/0/JSAI2021_2G3GS2e03/_pdf/-char/ja) ](Japanese)
 ```bash
-@article{yumiya2021pcmf,
+@article{sumiya2021pcmf,
   title={Patient Disease Prediction and Medical Feature Extraction using Matrix Factorization},
   author={Yuki, Sumiya and Atsuyoshi, Matsuda and Kenji, Araki and Kazuhide, Nakata},
   journal={The Japanese Society for Artifical Intelligence},
@@ -136,8 +136,10 @@ You may use our package(PCMF) under MIT License. If you use this program in your
 
 [3] Ajit P. Singh and Geoffrey J. Gordon. Relational learning via collective matrix factorization. Proceedings of the 14th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining: 650-658, 2008.
 
-[4] David E. Rumelhart, Geoffrey E. Hinton and Ronald J. Williams. “Learning representations by back-propagating errors.” Nature 323.6088 (1986): 533-536
+[4] Yuki Sumiya, Kazuhide Nakata, Atsuyoshi Matsuda, Kenji Araki. "Patient Disease Prediction and Relational Data Mining using Matrix Factorization." The 40th Joint Conference on Medical Informatics, 2020.
 
-[5] Diederik P. Kingma and Jimmy Ba. “Adam: A method for stochastic optimization.” arXiv preprint arXiv:1412.6980 (2014).
+[5] David E. Rumelhart, Geoffrey E. Hinton and Ronald J. Williams. “Learning representations by back-propagating errors.” Nature 323.6088 (1986): 533-536
 
-[6] Martín Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfel-low, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Mane, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viegas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu and Xiaoqiang Zheng. “Tensor-flow: Large-scale machine learning on heterogeneous distributed systems.” arXiv preprint arXiv:1603.04467 (2016)
+[6] Diederik P. Kingma and Jimmy Ba. “Adam: A method for stochastic optimization.” arXiv preprint arXiv:1412.6980 (2014).
+
+[7] Martín Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfel-low, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Mane, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viegas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu and Xiaoqiang Zheng. “Tensor-flow: Large-scale machine learning on heterogeneous distributed systems.” arXiv preprint arXiv:1603.04467 (2016)
