@@ -65,7 +65,7 @@ Feature representations analysis can be performed by analyzing the feature repre
 ## CMF and NMF (reference)
 Non-Negative Matrix Factorization (NMF) and Collective matrix Factorization (CMF) exist as methods of matrix factorization. The features of each are as follows.
 
-### Non-Negative Matrix Factorization（NMF）  
+### Non-Negative Matrix Factorization（NMF）[1][2]
 Predict the original matrix by the product of two nonnegative matrices.
 
 - Advantages  
@@ -74,7 +74,7 @@ Since it is non-negative, a highly interpretable feature representation can be o
 - Disadvantages  
 Low extensibility because multiple relationships cannot be considered.
 
-### Collective matrix Factorization（CMF）
+### Collective matrix Factorization（CMF）[3]
 This is a method of factoring two or more relational data (matrix) at the same time when a set has multiple relations.
 
 - Advantages  
@@ -130,6 +130,8 @@ You may use our package(PCMF) under MIT License. If you use this program in your
 ```
 
 # Reference
+[5] [6] [7] are used in the code.  
+
 [1] Daniel D. Lee and H. Sebastian Seung. “Learning the parts of objects by non-negative matrix factorization.” Nature 401.6755 (1999): 788-791.
 
 [2] Daniel D. Lee and H. Sebastian Seung. “Algorithms for non-negative matrix factorization.” Advances in neural information processing systems 13 (2001): 556-562.
