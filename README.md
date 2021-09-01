@@ -110,7 +110,7 @@ You may use our package(PCMF) under MIT License. If you use this program in your
 **PCMF Package**
 ```bash
 @misc{sumiya2021pcmf,
-  author = {Yuki, Sumiya and Kensho, Kondo and Kazuhide, Nakata},
+  author = {Yuki, Sumiya and Ryo, Matsui and Kensho, Kondo and Kazuhide, Nakata},
   title = {PCMF},
   year = {2021},
   publisher = {GitHub},
